@@ -17,10 +17,11 @@ public class Deck {
 
     }
 
-    public boolean getNumberOfCardsRemaining() {
-        return false;
+    public int getNumberOfCardsRemaining() {
+        return 0;
     }
 
-    public boolean getSizeOfDeck() {
+    public int getSizeOfDeck() {
+        return 0;
     }
 }

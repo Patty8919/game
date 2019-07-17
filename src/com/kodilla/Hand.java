@@ -9,8 +9,8 @@ public class Hand {
         return 0;
     }
 
-    public boolean getSoft() {
-        return false;
+    public int getSoft() {
+        return 0;
     }
 
     public void discardHand() {
