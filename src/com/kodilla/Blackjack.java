@@ -34,7 +34,7 @@ public class Blackjack extends Application {
     private Label playerLbl = new Label("Twoje karty");
 
     private Label status = new Label();
-    private Image imageback = new Image("file:resources/table.png");
+    private Image imageback = new Image("file:resources/table.jpg");
 
     public void drawCard(Hand hand, FlowPane pane, Label l) {
         try {
