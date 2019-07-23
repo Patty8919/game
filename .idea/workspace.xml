@@ -2,24 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Pati.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kodilla/Suit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntelliJ/com/kodilla/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntelliJ/com/kodilla/Blackjack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntelliJ/com/kodilla/Blackjack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntelliJ/com/kodilla/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntelliJ/com/kodilla/Card.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntelliJ/com/kodilla/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntelliJ/com/kodilla/Deck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntelliJ/com/kodilla/Hand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntelliJ/com/kodilla/Hand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/10t.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/3t.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/card.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/diamonds-884185_640.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/two.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kodilla/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kodilla/Blackjack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kodilla/Blackjack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kodilla/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kodilla/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kodilla/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kodilla/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kodilla/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kodilla/Hand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntelliJ/TicTacToe/TicTacToe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntelliJ/TicTacToe/TicTacToe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/EightKaro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/EightKier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/EightPik.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/EightTrefl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/FiveKaro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/FiveKier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/FivePik.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/FiveTrefl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/FourKaro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/FourKier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/FourPik.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/FourTrefl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/NineKaro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/NineKier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/NinePik.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/NineTrefl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/SevenKaro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/SevenKier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/SevenPik.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/SevenTrefl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/SixKaro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/SixKier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/SixPik.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/SixTrefl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/TenKaro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/TenKier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/TenPik.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/TenTrefl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/ThreeKaro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/ThreeKier.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/ThreePik.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/ThreeTrefl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/TwoKaro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/TwoKier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/TwoPik.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/TwoTrefl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/asKaro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/asKier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/asPik.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/karty/asTrefl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/TicTacToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kodilla/Rank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kodilla/Rank.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,11 +105,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kodilla/Blackjack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3264">
-              <caret line="192" column="42" selection-start-line="192" selection-start-column="42" selection-end-line="192" selection-end-column="42" />
+            <state relative-caret-position="2210">
+              <caret line="130" selection-start-line="130" selection-end-line="130" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#6319#6320#0" expanded="true" />
@@ -96,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kodilla/Hand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+            <state relative-caret-position="230">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
               <folding>
                 <element signature="e#508#509#0" expanded="true" />
                 <element signature="e#553#554#0" expanded="true" />
@@ -123,7 +149,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kodilla/Deck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
+            <state relative-caret-position="408">
               <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -141,8 +167,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kodilla/Card.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+            <state relative-caret-position="561">
+              <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
               <folding>
                 <element signature="e#990#991#0" expanded="true" />
                 <element signature="e#1022#1023#0" expanded="true" />
@@ -161,7 +187,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/kodilla/Suit.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
               <folding>
                 <element signature="e#680#681#0" expanded="true" />
                 <element signature="e#707#708#0" expanded="true" />
@@ -174,19 +200,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kodilla/Rank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+            <state relative-caret-position="595">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1345#1346#0" expanded="true" />
-                <element signature="e#1372#1373#0" expanded="true" />
-                <element signature="e#1418#1419#0" expanded="true" />
-                <element signature="e#1445#1446#0" expanded="true" />
-                <element signature="e#1478#1479#0" expanded="true" />
-                <element signature="e#1507#1508#0" expanded="true" />
                 <element signature="e#1647#1648#0" expanded="true" />
                 <element signature="e#1676#1677#0" expanded="true" />
               </folding>
@@ -197,8 +217,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TicTacToe/TicTacToe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+            <state relative-caret-position="408">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -227,13 +247,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/TicTacToe/TicTacToe.java" />
         <option value="$PROJECT_DIR$/src/com/kodilla/Gamer.java" />
         <option value="$PROJECT_DIR$/src/com/kodilla/Deck.java" />
         <option value="$PROJECT_DIR$/src/com/kodilla/Card.java" />
         <option value="$PROJECT_DIR$/src/com/kodilla/Suit.java" />
         <option value="$PROJECT_DIR$/src/com/kodilla/Hand.java" />
         <option value="$PROJECT_DIR$/src/com/kodilla/Blackjack.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/TicTacToe.java" />
         <option value="$PROJECT_DIR$/src/com/kodilla/Rank.java" />
       </list>
     </option>
@@ -254,6 +274,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -292,7 +313,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -466,11 +486,13 @@
       <workItem from="1563474458863" duration="182000" />
       <workItem from="1563633255405" duration="11801000" />
       <workItem from="1563702793274" duration="2117000" />
+      <workItem from="1563824995889" duration="1954000" />
+      <workItem from="1563896942500" duration="1179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45770000" />
+    <option name="totallyTimeSpent" value="48903000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -485,7 +507,7 @@
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.15991472" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.16311301" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -494,7 +516,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32981783" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28283796" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28283796" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -552,38 +574,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kodilla/Gamer.java" />
     <entry file="file://$PROJECT_DIR$/src/com/kodilla/Application.java" />
-    <entry file="file://$PROJECT_DIR$/src/TicTacToe/TicTacToe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kodilla/Rank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1345#1346#0" expanded="true" />
-            <element signature="e#1372#1373#0" expanded="true" />
-            <element signature="e#1418#1419#0" expanded="true" />
-            <element signature="e#1445#1446#0" expanded="true" />
-            <element signature="e#1478#1479#0" expanded="true" />
-            <element signature="e#1507#1508#0" expanded="true" />
-            <element signature="e#1647#1648#0" expanded="true" />
-            <element signature="e#1676#1677#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kodilla/Suit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
           <folding>
             <element signature="e#680#681#0" expanded="true" />
             <element signature="e#707#708#0" expanded="true" />
@@ -595,43 +589,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kodilla/Deck.java">
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/TicTacToe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="408">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
-            <element signature="e#1078#1079#0" expanded="true" />
-            <element signature="e#1403#1404#0" expanded="true" />
-            <element signature="e#1445#1446#0" expanded="true" />
-            <element signature="e#1615#1616#0" expanded="true" />
-            <element signature="e#1649#1650#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kodilla/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
-          <folding>
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1067#1068#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="e#1178#1179#0" expanded="true" />
-            <element signature="e#1221#1222#0" expanded="true" />
-            <element signature="e#1257#1258#0" expanded="true" />
-            <element signature="e#1300#1301#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kodilla/Hand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        <state relative-caret-position="230">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
           <folding>
             <element signature="e#508#509#0" expanded="true" />
             <element signature="e#553#554#0" expanded="true" />
@@ -653,14 +624,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kodilla/Deck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
+            <element signature="e#1445#1446#0" expanded="true" />
+            <element signature="e#1615#1616#0" expanded="true" />
+            <element signature="e#1649#1650#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kodilla/Blackjack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3264">
-          <caret line="192" column="42" selection-start-line="192" selection-start-column="42" selection-end-line="192" selection-end-column="42" />
+        <state relative-caret-position="2210">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#6319#6320#0" expanded="true" />
             <element signature="e#6347#6348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kodilla/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+          <folding>
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
+            <element signature="e#1300#1301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kodilla/Rank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1647#1648#0" expanded="true" />
+            <element signature="e#1676#1677#0" expanded="true" />
           </folding>
         </state>
       </provider>

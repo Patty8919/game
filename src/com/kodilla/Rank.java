@@ -9,19 +9,19 @@ public class Rank {
     private String symbol;
     private Integer points;
 
-    public final static Rank AS = new Rank ("as", "as", 11);
-    public final static Rank TWO = new Rank( "Two", "Two", 2 );
-    public final static Rank THREE = new Rank( "Three", "Three", 3);
-    public final static Rank FOUR = new Rank( "Four", "Four", 4);
-    public final static Rank FIVE = new Rank( "Five", "Five", 5);
-    public final static Rank SIX = new Rank( "Six", "Six", 6);
-    public final static Rank SEVEN = new Rank( "Seven", "Seven", 7);
-    public final static Rank EIGHT = new Rank( "Eight", "Eight", 8);
-    public final static Rank NINE = new Rank( "Nine", "Nine", 9);
-    public final static Rank TEN = new Rank( "Ten", "Ten", 10);
-    public final static Rank JACK = new Rank( "Jack", "Jack", 10);
-    public final static Rank QUEEN = new Rank( "Queen", "Queen", 10);
-    public final static Rank KING = new Rank( "King", "King", 10);
+    public final static Rank AS = new Rank ("as", "11", 11);
+    public final static Rank TWO = new Rank( "Two", "2", 2 );
+    public final static Rank THREE = new Rank( "Three", "3", 3);
+    public final static Rank FOUR = new Rank( "Four", "4", 4);
+    public final static Rank FIVE = new Rank( "Five", "5", 5);
+    public final static Rank SIX = new Rank( "Six", "6", 6);
+    public final static Rank SEVEN = new Rank( "Seven", "7", 7);
+    public final static Rank EIGHT = new Rank( "Eight", "8", 8);
+    public final static Rank NINE = new Rank( "Nine", "9", 9);
+    public final static Rank TEN = new Rank( "Ten", "10", 10);
+    public final static Rank JACK = new Rank( "Jack", "10 j", 10);
+    public final static Rank QUEEN = new Rank( "Queen", "10 q", 10);
+    public final static Rank KING = new Rank( "King", "10 k", 10);
 
     public final static java.util.List Values =
             Collections.unmodifiableList(Arrays.asList(new Rank[]{AS, TWO, THREE, FOUR, FIVE, SIX,

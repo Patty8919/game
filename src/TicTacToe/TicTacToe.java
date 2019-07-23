@@ -6,6 +6,7 @@ import javafx.geometry.Orientation;
 import javafx.geometry.Pos;
 import javafx.scene.Group;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.*;
@@ -29,6 +30,42 @@ public class TicTacToe extends Application {
         BackgroundSize backgroundSize = new BackgroundSize(50,50,true,true,true,false);
         BackgroundImage backgroundImage = new BackgroundImage(imagback, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, backgroundSize);
         Background background = new Background(backgroundImage);
+
+        Button drawbtn1 = new Button();
+        drawbtn1.setText("Hit");
+        drawbtn1.setOnAction((e) -> {
+
+        });
+
+        Button drawbtn2 = new Button();
+        drawbtn2.setText("Hit");
+        drawbtn2.setOnAction((e) -> {
+
+        });
+
+        Button drawbtn3 = new Button();
+        drawbtn3.setText("Hit");
+        drawbtn3.setOnAction((e) -> {
+
+        });
+
+        Button drawbtn4 = new Button();
+        drawbtn4.setText("Hit");
+        drawbtn4.setOnAction((e) -> {
+
+        });
+
+        Button drawbtn5 = new Button();
+        drawbtn5.setText("Hit");
+        drawbtn5.setOnAction((e) -> {
+
+        });
+
+        Button drawbtn6 = new Button();
+        drawbtn6.setText("Hit");
+        drawbtn6.setOnAction((e) -> {
+
+        });
 
         GridPane grid = new GridPane();
         grid.setAlignment(Pos.BOTTOM_RIGHT);
