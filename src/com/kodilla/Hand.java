@@ -30,7 +30,7 @@ public class Hand {
     }
 
     public int getSoft() {
-        return total;
+        return soft;
     }
 
     public void discardHand() {

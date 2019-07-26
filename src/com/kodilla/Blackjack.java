@@ -47,7 +47,7 @@ public class Blackjack extends Application {
 
             StringBuilder total = new StringBuilder();
             if (hand.getSoft() > 0) {
-                total.append(handTotal -+ 20).append("/");
+                total.append(handTotal - 10).append("/");
             }
             total.append(handTotal);
             l.setText(total.toString());

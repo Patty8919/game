@@ -1,93 +1,121 @@
 package TicTacToe;
 
-import javafx.application.Application;
-import javafx.geometry.Insets;
-import javafx.geometry.Orientation;
-import javafx.geometry.Pos;
-import javafx.scene.Group;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
-import javafx.scene.layout.*;
-import javafx.scene.paint.Color;
-import javafx.scene.shape.Rectangle;
-import javafx.stage.Stage;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Font;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-public class TicTacToe extends Application {
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
 
-    private Image imagback = new Image("file:resources/board.jpg");
-    private Image tac = new Image("file:resources/multiply.png");
-    private Image toe = new Image("file:resources/circle.png");
-    private FlowPane cards = new FlowPane(Orientation.HORIZONTAL);
+public class TicTacToe extends JFrame {
 
-    public static void main(String[] args) {
-        launch(args);
+    //private static final long serialVersionUID = -5034718198692604252L;
+    JButton[] boardButtons = new JButton[9];
+    JButton resetButton = new JButton("Reset");
+    JFrame frame = new JFrame("Tic Tac Toe");
+
+    Scene board = new Scene('X', 'O');
+    Computer opponent = new Computer();
+
+    public TicTacToe() {
+        frame.setSize(600, 600);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
+        frame.setResizable(false);
+    }
+    private void initialise() {
+        JPanel mainPanel = new JPanel(new BorderLayout());
+        JPanel gameBoard = new JPanel(new GridLayout(3,3));
+
+        frame.add(mainPanel);
+
+        gameBoard.setPreferredSize(new Dimension(500,500));
+
+        mainPanel.add(gameBoard, BorderLayout.NORTH);
+        mainPanel.add(resetButton);
+
+        resetButton.addActionListener(new myActionListener());
+
+        for(int i=0; i<9; i++) {
+            boardButtons[i] = new JButton();
+            boardButtons[i].setBackground(Color.WHITE);
+            boardButtons[i].setText("");
+            boardButtons[i].setVisible(true);
+
+            gameBoard.add(boardButtons[i]);
+            boardButtons[i].addActionListener(new myActionListener());
+            boardButtons[i].setFont(new Font("Tahoma", Font.BOLD, 100));
+        }
     }
 
-    @Override
-    public void start(Stage primaryStage) throws Exception {
-        BackgroundSize backgroundSize = new BackgroundSize(50,50,true,true,true,false);
-        BackgroundImage backgroundImage = new BackgroundImage(imagback, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, backgroundSize);
-        Background background = new Background(backgroundImage);
+    private class myActionListener implements ActionListener {
+        public void actionPerformed(ActionEvent action) {
+            int computerMove;
 
-        Button drawbtn1 = new Button();
-        drawbtn1.setText("Hit");
-        drawbtn1.setOnAction((e) -> {
+            for (int i=0; i<9; i++) {
+                if (action.getSource() == boardButtons[i] &&
+                        board.spotAvailable(i)) {
 
-        });
+                    board.newPiece(board.getPlayer(), i);
+                    boardButtons[i].setText(Character.toString(board.getPlayer()));
+                    boardButtons[i].setForeground(Color.RED);
 
-        Button drawbtn2 = new Button();
-        drawbtn2.setText("Hit");
-        drawbtn2.setOnAction((e) -> {
+                    if (board.isWinner(board.getPlayer())) {
+                        gameOver();
+                    }
 
-        });
+                    computerMove = opponent.getMove(board);
 
-        Button drawbtn3 = new Button();
-        drawbtn3.setText("Hit");
-        drawbtn3.setOnAction((e) -> {
+                    if (computerMove != -1) {
+                        board.newPiece(board.getComputer(), computerMove);
+                        boardButtons[computerMove].setText(Character.toString(board.getComputer()));
+                        boardButtons[computerMove].setForeground(Color.BLUE);
 
-        });
+                        if (board.isWinner(board.getComputer())) {
+                            gameOver();
+                        }
 
-        Button drawbtn4 = new Button();
-        drawbtn4.setText("Hit");
-        drawbtn4.setOnAction((e) -> {
+                    } else {
+                        gameOver();
+                    }
+                }
+            }
 
-        });
+            if(action.getSource() == resetButton) {
+                for (int i=0; i<9; i++) {
+                    boardButtons[i].setText("");
+                    boardButtons[i].setEnabled(true);
+                    frame.setTitle("Tic Tac Toe");
+                }
+                board.reset();
+            }
+        }
+    }
 
-        Button drawbtn5 = new Button();
-        drawbtn5.setText("Hit");
-        drawbtn5.setOnAction((e) -> {
+    public void gameOver() {
+        for (int i=0; i<9; i++) {
+            boardButtons[i].setEnabled(false);
+        }
+        if (board.isWinner(board.getPlayer())) {
+            JOptionPane.showMessageDialog(frame, "CONGRATULATIONS! YOU WIN!");
+            frame.setTitle("PLAYER WINS");
+        } else if (board.isWinner(board.getComputer())) {
+            frame.setTitle("COMPUTER WINS");
+            JOptionPane.showMessageDialog(frame, "You Lose.");
 
-        });
-
-        Button drawbtn6 = new Button();
-        drawbtn6.setText("Hit");
-        drawbtn6.setOnAction((e) -> {
-
-        });
-
-        GridPane grid = new GridPane();
-        grid.setAlignment(Pos.BOTTOM_RIGHT);
-        grid.setPadding(new Insets(11.5,12.5,13.5,14.5));
-        grid.setHgap(5.5);
-        grid.setVgap(5.5);
-        grid.setBackground(background);
-
-        ImageView img = new ImageView(tac);
-        cards.getChildren().add(img);
-
-        ImageView img1 = new ImageView(toe);
-        cards.getChildren().add(img1);
-
-        grid.add(cards, 0, 0, 3, 1);
-
-        Scene scene = new Scene(grid, 1200, 900, Color.WHITE);
-
-        primaryStage.setTitle("BlackJack");
-        primaryStage.setScene(scene);
-        primaryStage.show();
-
+        } else {
+            JOptionPane.showMessageDialog(frame, "Draw.");
+            frame.setTitle("IT'S A DRAW");
+        }
+    }
+    public static void main(String[] args) {
+        TicTacToe game = new TicTacToe();
+        game.initialise();
     }
 }
-
