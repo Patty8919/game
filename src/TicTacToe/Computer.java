@@ -74,11 +74,10 @@ public class Computer {
                 }
             }
         }
-        // No win position found
+
         return -1;
     }
-    // Return index of position that leads to a particular number of possible
-    // wins on the next turn (Only works with 1 or 2 wins)
+
     public int findFork(Scene board, char piece, int wins) {
         Scene boardCopy = board.copy();
         Scene newBoardCopy;

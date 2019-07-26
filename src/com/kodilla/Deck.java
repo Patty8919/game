@@ -40,7 +40,7 @@ public class Deck {
 
     public Card dealCard() {
         if (index >= deck.size())
-        return null;
+            return null;
         else
             return (Card) deck.get(index++);
     }
