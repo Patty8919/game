@@ -22,6 +22,7 @@ public class Blackjack extends Application {
     private final Hand hand = new Hand();
     private final Hand dealer = new Hand();
 
+
     private boolean busted;
     private boolean playerTurn;
 
@@ -83,6 +84,7 @@ public class Blackjack extends Application {
 
         status.setText("Twój ruch");
     }
+
 
     @Override
     public void start(Stage primaryStage) {
@@ -156,6 +158,8 @@ public class Blackjack extends Application {
         newbtn.setOnAction((e) -> {
             newHand();
         });
+
+
 
         GridPane grid = new GridPane();
         grid.setAlignment(Pos.CENTER);

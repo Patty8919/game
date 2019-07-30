@@ -7,21 +7,23 @@ import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Scanner;
 
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
+import javax.swing.*;
 
 public class TicTacToe extends JFrame {
 
-    //private static final long serialVersionUID = -5034718198692604252L;
-    JButton[] boardButtons = new JButton[9];
+    JButton[] boardButtons = new JButton[10];
     JButton resetButton = new JButton("Reset");
+    JButton menuButton = new JButton("Menu");
+    JButton saveButton = new JButton ("Zapisz");
+    JButton loadButton = new JButton ("Wczytaj");
+
     JFrame frame = new JFrame("Tic Tac Toe");
 
     Scene board = new Scene('X', 'O');
     Computer opponent = new Computer();
+    Menu menu = new Menu();
 
     public TicTacToe() {
         frame.setSize(600, 600);
@@ -35,12 +37,19 @@ public class TicTacToe extends JFrame {
 
         frame.add(mainPanel);
 
+
         gameBoard.setPreferredSize(new Dimension(500,500));
 
         mainPanel.add(gameBoard, BorderLayout.NORTH);
-        mainPanel.add(resetButton);
+        mainPanel.add(resetButton, BorderLayout.EAST);
+        mainPanel.add(loadButton, BorderLayout.CENTER);
+        mainPanel.add(saveButton, BorderLayout.WEST);
+        mainPanel.add(menuButton, BorderLayout.SOUTH);
+
 
         resetButton.addActionListener(new myActionListener());
+        menuButton.addActionListener(new myActionListener());
+        saveButton.addActionListener(new myActionListener());
 
         for(int i=0; i<9; i++) {
             boardButtons[i] = new JButton();
@@ -95,6 +104,15 @@ public class TicTacToe extends JFrame {
                 }
                 board.reset();
             }
+
+            if(action.getSource() == saveButton) {
+                menu.saveMap();
+            }
+
+            if(action.getSource() == loadButton) {
+                menu.loadMap();
+            }
+
         }
     }
 
@@ -117,5 +135,8 @@ public class TicTacToe extends JFrame {
     public static void main(String[] args) {
         TicTacToe game = new TicTacToe();
         game.initialise();
+
+
+        }
     }
-}
+

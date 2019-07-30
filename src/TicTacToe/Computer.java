@@ -1,16 +1,24 @@
 package TicTacToe;
 
-public class Computer {
-    public int getMove(Scene scene) {
-        Scene boardCopy = scene.copy();
 
+import java.util.Random;
+import java.util.Timer;
+import java.util.TimerTask;
+
+class Computer {
+    public Computer() {
+    }
+
+    int getMove(Scene scene) {
+
+        Scene boardCopy = scene.copy();
 
         if (boardCopy.spotAvailable(4)) {
             return 4;
 
         } else if (boardCopy.getBoard()[4] == scene.getPlayer() &&
-                boardCopy.spotAvailable(2)) {
-            return 2;
+                boardCopy.spotAvailable(1)) {
+            return 1;
         }
 
         int computerIndex = findWinPosition(boardCopy, scene.getComputer());

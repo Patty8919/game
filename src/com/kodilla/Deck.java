@@ -21,6 +21,7 @@ public class Deck {
                     Iterator rankIterator = Rank.Values.iterator();
                     while (rankIterator.hasNext()) {
                         Rank rank = (Rank) rankIterator.next();
+
                         Card card = new Card(suit, rank, new Image(Card.getFilename(suit, rank)));
                         addCard(card);
                     }
