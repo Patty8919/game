@@ -7,7 +7,7 @@ import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.Scanner;
+import java.io.IOException;
 
 import javax.swing.*;
 
@@ -15,15 +15,12 @@ public class TicTacToe extends JFrame {
 
     JButton[] boardButtons = new JButton[10];
     JButton resetButton = new JButton("Reset");
-    JButton menuButton = new JButton("Menu");
     JButton saveButton = new JButton ("Zapisz");
     JButton loadButton = new JButton ("Wczytaj");
-
     JFrame frame = new JFrame("Tic Tac Toe");
 
     Scene board = new Scene('X', 'O');
     Computer opponent = new Computer();
-    Menu menu = new Menu();
 
     public TicTacToe() {
         frame.setSize(600, 600);
@@ -37,19 +34,17 @@ public class TicTacToe extends JFrame {
 
         frame.add(mainPanel);
 
-
         gameBoard.setPreferredSize(new Dimension(500,500));
 
         mainPanel.add(gameBoard, BorderLayout.NORTH);
         mainPanel.add(resetButton, BorderLayout.EAST);
         mainPanel.add(loadButton, BorderLayout.CENTER);
         mainPanel.add(saveButton, BorderLayout.WEST);
-        mainPanel.add(menuButton, BorderLayout.SOUTH);
 
 
-        resetButton.addActionListener(new myActionListener());
-        menuButton.addActionListener(new myActionListener());
-        saveButton.addActionListener(new myActionListener());
+        resetButton.addActionListener(new MyResetButtonActionListener());
+        saveButton.addActionListener(new MySaveButtonActionListener());
+        loadButton.addActionListener(new MyLoadButtonActionListener());
 
         for(int i=0; i<9; i++) {
             boardButtons[i] = new JButton();
@@ -58,22 +53,42 @@ public class TicTacToe extends JFrame {
             boardButtons[i].setVisible(true);
 
             gameBoard.add(boardButtons[i]);
-            boardButtons[i].addActionListener(new myActionListener());
+            boardButtons[i].addActionListener(new ClickButtonAction(i));
             boardButtons[i].setFont(new Font("Tahoma", Font.BOLD, 100));
+
         }
     }
 
-    private class myActionListener implements ActionListener {
-        public void actionPerformed(ActionEvent action) {
-            int computerMove;
+    public void gameOver () {
+        for (int i = 0; i < 9; i++) {
+            boardButtons[i].setEnabled(false);
+        }
+        if (board.isWinner(board.getPlayer())) {
+            JOptionPane.showMessageDialog(frame, "CONGRATULATIONS! YOU WIN!");
+            frame.setTitle("PLAYER WINS");
+        } else if (board.isWinner(board.getComputer())) {
+            frame.setTitle("COMPUTER WINS");
+            JOptionPane.showMessageDialog(frame, "You Lose.");
 
-            for (int i=0; i<9; i++) {
-                if (action.getSource() == boardButtons[i] &&
-                        board.spotAvailable(i)) {
+        } else {
+            JOptionPane.showMessageDialog(frame, "Draw.");
+            frame.setTitle("IT'S A DRAW");
+        }
+    }
 
-                    board.newPiece(board.getPlayer(), i);
-                    boardButtons[i].setText(Character.toString(board.getPlayer()));
-                    boardButtons[i].setForeground(Color.RED);
+    private class ClickButtonAction implements ActionListener {
+        int number = -1;
+        int computerMove;
+        public ClickButtonAction(int number) {
+            this.number = number;
+        }
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+                if (board.spotAvailable(number)) {
+                    board.newPiece(board.getPlayer(), number);
+                    boardButtons[number].setText(Character.toString(board.getPlayer()));
+                    boardButtons[number].setForeground(Color.RED);
 
                     if (board.isWinner(board.getPlayer())) {
                         gameOver();
@@ -95,8 +110,11 @@ public class TicTacToe extends JFrame {
                     }
                 }
             }
+        }
 
-            if(action.getSource() == resetButton) {
+
+    private class MyResetButtonActionListener implements ActionListener {
+        public void actionPerformed(ActionEvent action) {
                 for (int i=0; i<9; i++) {
                     boardButtons[i].setText("");
                     boardButtons[i].setEnabled(true);
@@ -104,39 +122,35 @@ public class TicTacToe extends JFrame {
                 }
                 board.reset();
             }
+        }
 
-            if(action.getSource() == saveButton) {
-                menu.saveMap();
+    private class MySaveButtonActionListener implements ActionListener {
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            try {
+                new SaveLoad().saveToFail();
+            } catch (IOException ex) {
+                ex.printStackTrace();
             }
+        }
+    }
 
-            if(action.getSource() == loadButton) {
-                menu.loadMap();
+    private class MyLoadButtonActionListener implements ActionListener {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            try {
+                new SaveLoad().loadToFail();
+            } catch (IOException ex) {
+                ex.printStackTrace();
             }
-
         }
     }
 
-    public void gameOver() {
-        for (int i=0; i<9; i++) {
-            boardButtons[i].setEnabled(false);
-        }
-        if (board.isWinner(board.getPlayer())) {
-            JOptionPane.showMessageDialog(frame, "CONGRATULATIONS! YOU WIN!");
-            frame.setTitle("PLAYER WINS");
-        } else if (board.isWinner(board.getComputer())) {
-            frame.setTitle("COMPUTER WINS");
-            JOptionPane.showMessageDialog(frame, "You Lose.");
+            public static void main (String[]args){
+                TicTacToe game = new TicTacToe();
+                game.initialise();
 
-        } else {
-            JOptionPane.showMessageDialog(frame, "Draw.");
-            frame.setTitle("IT'S A DRAW");
+            }
         }
-    }
-    public static void main(String[] args) {
-        TicTacToe game = new TicTacToe();
-        game.initialise();
-
-
-        }
-    }
 
