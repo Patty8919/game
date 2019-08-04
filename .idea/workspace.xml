@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/SaveLoad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntelliJ/TicTacToe/Menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntelliJ/TicTacToe/TicTacToe$myActionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntelliJ/TicTacToe/SaveLoad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntelliJ/TicTacToe/SaveLoad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntelliJ/TicTacToe/TicTacToe$ClickButtonAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntelliJ/TicTacToe/TicTacToe$ClickButtonAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntelliJ/TicTacToe/TicTacToe$MyLoadButtonActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntelliJ/TicTacToe/TicTacToe$MyLoadButtonActionListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntelliJ/TicTacToe/TicTacToe$MyResetButtonActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntelliJ/TicTacToe/TicTacToe$MyResetButtonActionListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntelliJ/TicTacToe/TicTacToe$MySaveButtonActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntelliJ/TicTacToe/TicTacToe$MySaveButtonActionListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/IntelliJ/TicTacToe/TicTacToe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntelliJ/TicTacToe/TicTacToe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Rank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/SaveLoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/SaveLoad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TicTacToe/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/TicTacToe.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -72,7 +74,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TicTacToe/TicTacToe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1130">
+            <state relative-caret-position="340">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -84,7 +86,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TicTacToe/Scene.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="391">
               <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
               <folding>
                 <element signature="e#352#353#0" expanded="true" />
@@ -103,8 +105,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TicTacToe/Computer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1421">
+            <state relative-caret-position="1394">
               <caret line="84" selection-start-line="84" selection-end-line="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kodilla/Blackjack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2890">
+              <caret line="182" column="31" selection-start-line="182" selection-start-column="31" selection-end-line="182" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,10 +129,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TicTacToe/SaveLoad.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="656">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="714">
+              <caret line="51" column="40" lean-forward="true" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1039#1040#0" expanded="true" />
+                <element signature="e#1066#1067#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,11 +142,7 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -171,9 +183,9 @@
         <option value="$PROJECT_DIR$/src/com/kodilla/Menu.java" />
         <option value="$PROJECT_DIR$/src/com/kodilla/Blackjack.java" />
         <option value="$PROJECT_DIR$/src/TicTacToe/Menu.java" />
-        <option value="$PROJECT_DIR$/src/TicTacToe/TicTacToe.java" />
         <option value="$PROJECT_DIR$/src/TicTacToe/Rank.java" />
         <option value="$PROJECT_DIR$/Test.txt" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/TicTacToe.java" />
         <option value="$PROJECT_DIR$/src/TicTacToe/SaveLoad.java" />
       </list>
     </option>
@@ -206,18 +218,7 @@
             <path>
               <item name="IntelliJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="IntelliJ" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IntelliJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IntelliJ" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IntelliJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IntelliJ" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="kodilla" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IntelliJ" type="b2602c69:ProjectViewProjectNode" />
@@ -435,12 +436,17 @@
       <workItem from="1564480350915" duration="578000" />
       <workItem from="1564495407476" duration="8729000" />
       <workItem from="1564578524556" duration="6282000" />
-      <workItem from="1564752666668" duration="13251000" />
+      <workItem from="1564752666668" duration="13489000" />
+      <workItem from="1564782091522" duration="860000" />
+      <workItem from="1564819935721" duration="2536000" />
+      <workItem from="1564854220952" duration="221000" />
+      <workItem from="1564925254881" duration="3424000" />
+      <workItem from="1564939876954" duration="411000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99583000" />
+    <option name="totallyTimeSpent" value="107273000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -455,7 +461,7 @@
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.14818764" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.15618336" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -464,7 +470,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32981783" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17833173" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17833173" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -478,7 +484,7 @@
       <window_info anchor="bottom" id="Messages" order="13" weight="0.16011505" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
-      <window_info anchor="bottom" id="Terminal" order="16" weight="0.099836335" />
+      <window_info anchor="bottom" id="Terminal" order="16" weight="0.09971237" />
       <window_info anchor="bottom" id="Inspection Results" order="17" weight="0.32981783" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -606,18 +612,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kodilla/Menu.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/kodilla/Blackjack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3094">
-          <caret line="182" column="31" selection-start-line="182" selection-start-column="31" selection-end-line="182" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6621#6622#0" expanded="true" />
-            <element signature="e#6649#6650#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TicTacToe/Ranking.java" />
     <entry file="file://$PROJECT_DIR$/ranking.list">
       <provider selected="true" editor-type-id="text-editor">
@@ -626,19 +620,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Menu.java" />
     <entry file="file://$PROJECT_DIR$/src/TicTacToe/Scene.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="391">
           <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
           <folding>
             <element signature="e#352#353#0" expanded="true" />
@@ -655,7 +640,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TicTacToe/Computer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1421">
+        <state relative-caret-position="1394">
           <caret line="84" selection-start-line="84" selection-end-line="84" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -663,26 +648,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test.txt">
+    <entry file="file://$PROJECT_DIR$/src/com/kodilla/Blackjack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TicTacToe/SaveLoad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="2890">
+          <caret line="182" column="31" selection-start-line="182" selection-start-column="31" selection-end-line="182" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/SaveLoad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="51" column="40" lean-forward="true" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TicTacToe/TicTacToe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1130">
+        <state relative-caret-position="340">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />

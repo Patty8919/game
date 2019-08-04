@@ -13,21 +13,23 @@ import javax.swing.*;
 
 public class TicTacToe extends JFrame {
 
-    JButton[] boardButtons = new JButton[10];
-    JButton resetButton = new JButton("Reset");
-    JButton saveButton = new JButton ("Zapisz");
-    JButton loadButton = new JButton ("Wczytaj");
-    JFrame frame = new JFrame("Tic Tac Toe");
+        static JButton[] boardButtons = new JButton[10];
+        JButton resetButton = new JButton("Reset");
+        JButton saveButton = new JButton("Zapisz");
+        JButton loadButton = new JButton("Wczytaj");
+        JFrame frame = new JFrame("Tic Tac Toe");
 
-    Scene board = new Scene('X', 'O');
-    Computer opponent = new Computer();
+        Scene board = new Scene('X', 'O');
+        Computer opponent = new Computer();
 
     public TicTacToe() {
-        frame.setSize(600, 600);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setVisible(true);
-        frame.setResizable(false);
-    }
+            frame.setSize(600, 600);
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            frame.setVisible(true);
+            frame.setResizable(false);
+        }
+
+
     private void initialise() {
         JPanel mainPanel = new JPanel(new BorderLayout());
         JPanel gameBoard = new JPanel(new GridLayout(3,3));
@@ -129,7 +131,7 @@ public class TicTacToe extends JFrame {
         @Override
         public void actionPerformed(ActionEvent e) {
             try {
-                new SaveLoad().saveToFail();
+                new SaveLoad().saveToFile();
             } catch (IOException ex) {
                 ex.printStackTrace();
             }
@@ -140,7 +142,7 @@ public class TicTacToe extends JFrame {
         @Override
         public void actionPerformed(ActionEvent e) {
             try {
-                new SaveLoad().loadToFail();
+                new SaveLoad().loadToFile();
             } catch (IOException ex) {
                 ex.printStackTrace();
             }

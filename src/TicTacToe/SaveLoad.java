@@ -8,41 +8,56 @@ import java.nio.file.Paths;
 import java.util.Scanner;
 import java.util.stream.Stream;
 
+import static TicTacToe.TicTacToe.boardButtons;
+
 public class SaveLoad {
 
 
-    void saveToFail() throws IOException {
-        String string = "X,O,O - O,X,X";
+    void saveToFile() throws IOException {
+        /*String string = "X,O,O - O,X,X";
         String [] parts = string.split("-");
         String part1 = parts[0];
-        String part2 = parts[1];
+        String part2 = parts[1];*/
 
-        //Path path = Paths.get("Test.txt");
+        String save = boardButtons();
+        
         File f = new File("Test.txt");
         if(!f.exists()) {
             f.createNewFile();
+            String state = "X,O,X,O,O,X";
+            String [] parts = state.split(",");
+            String part = parts[0];
+
         }
         Path path = f.toPath();
 
         try (
 
         BufferedWriter writer = Files.newBufferedWriter(path)) {
-            writer.write(part1 + part2);
+            writer.write(save);
         } catch (IOException e) {
             System.out.println("wystąpił błąd: " + e);
         }
     }
 
-    void loadToFail(){
+    private String boardButtons() {
+        return null;
+    }
+
+    void loadToFile(){
+        String load = boardButtons();
+        String [] parts = load.split(",");
+        String part1 = parts[0];
+
+       part1.setText("" + boardButtons);
 
         File file1 = new File("Test.txt");
         FileInputStream fis = null;
         BufferedInputStream bis = null;
         DataInputStream dis = null;
-
-        //Path file = Paths.get(part1 + part2);
+        
             try{
-                 //Stream<String> stream = Files.lines(file))
+  
                  fis = new FileInputStream(file1);
                  bis = new BufferedInputStream(fis);
                  dis = new DataInputStream(bis);
@@ -53,8 +68,7 @@ public class SaveLoad {
              fis.close();
              bis.close();
              dis.close();
-                //stream.forEach(System.out::println);
-
+             
             } catch(FileNotFoundException e) {
                 e.printStackTrace();
             } catch(IOException e) {
@@ -62,7 +76,6 @@ public class SaveLoad {
             }
             {
 
-                //System.out.println("wystąpił błąd: " + e);
             }
         }
 
