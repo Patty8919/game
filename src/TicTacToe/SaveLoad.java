@@ -1,5 +1,6 @@
 package TicTacToe;
 
+import javax.swing.*;
 import java.awt.*;
 import java.io.*;
 import java.nio.file.Files;
@@ -13,73 +14,61 @@ import static TicTacToe.TicTacToe.boardButtons;
 public class SaveLoad {
 
 
-    void saveToFile() throws IOException {
-        /*String string = "X,O,O - O,X,X";
-        String [] parts = string.split("-");
-        String part1 = parts[0];
-        String part2 = parts[1];*/
+    public void saveToFile(JButton[] boardButtons) throws IOException {
 
-        String save = boardButtons();
-        
-        File f = new File("Test.txt");
-        if(!f.exists()) {
-            f.createNewFile();
-            String state = "X,O,X,O,O,X";
-            String [] parts = state.split(",");
-            String part = parts[0];
+            final JButton saveButton = new JButton();
+            saveButton.setText("ticTac");
 
+            File f = new File("Test.txt");
+            if (!f.exists()) {
+
+            }
+            Path path = f.toPath();
+
+            try (
+                    BufferedWriter writer = Files.newBufferedWriter(path)) {
+                writer.write(String.valueOf(boardButtons));
+            } catch (IOException e) {
+                System.out.println("wystąpił błąd: " + e);
+            }
         }
-        Path path = f.toPath();
 
-        try (
 
-        BufferedWriter writer = Files.newBufferedWriter(path)) {
-            writer.write(save);
-        } catch (IOException e) {
-            System.out.println("wystąpił błąd: " + e);
-        }
-    }
+    public void loadToFile(JButton[] boardButtons) {
 
-    private String boardButtons() {
-        return null;
-    }
-
-    void loadToFile(){
-        String load = boardButtons();
-        String [] parts = load.split(",");
-        String part1 = parts[0];
-
-       part1.setText("" + boardButtons);
+        final JButton loadButton = new JButton();
+        loadButton.setText("ticTac");
+        String string = "X,O,X,O,O,X";
+        String[] part = string.split(",");
+        String part1 = part[0];
 
         File file1 = new File("Test.txt");
-        FileInputStream fis = null;
-        BufferedInputStream bis = null;
-        DataInputStream dis = null;
-        
-            try{
-  
-                 fis = new FileInputStream(file1);
-                 bis = new BufferedInputStream(fis);
-                 dis = new DataInputStream(bis);
+        FileInputStream fis;
+        BufferedInputStream bis;
 
-             while (dis.available() !=0) {
-                 System.out.println(dis.readLine());
-             }
-             fis.close();
-             bis.close();
-             dis.close();
-             
-            } catch(FileNotFoundException e) {
-                e.printStackTrace();
-            } catch(IOException e) {
-                e.printStackTrace();
-            }
-            {
+        try {
 
+            fis = new FileInputStream(file1);
+            bis = new BufferedInputStream(fis);
+
+            while (bis.available() != 0) {
+                System.out.println(bis);
             }
+            fis.close();
+            bis.close();
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
+        {
+
+        }
+    }
 
 
     public SaveLoad() throws IOException {
     }
+
 }
