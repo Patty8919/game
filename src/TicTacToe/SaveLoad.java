@@ -17,7 +17,7 @@ public class SaveLoad {
     public void saveToFile(JButton[] boardButtons) throws IOException {
 
             final JButton saveButton = new JButton();
-            saveButton.setText("ticTac");
+            saveButton.setText("Zapisz");
 
             File f = new File("Test.txt");
             if (!f.exists()) {
