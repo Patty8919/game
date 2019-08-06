@@ -10,37 +10,38 @@ import java.util.Scanner;
 import java.util.stream.Stream;
 
 import static TicTacToe.TicTacToe.boardButtons;
+import static java.nio.charset.StandardCharsets.UTF_8;
 
 public class SaveLoad {
 
 
     public void saveToFile(JButton[] boardButtons) throws IOException {
 
-            final JButton saveButton = new JButton();
-            saveButton.setText("Zapisz");
+        String boardState = "";
 
-            File f = new File("Test.txt");
-            if (!f.exists()) {
-
-            }
-            Path path = f.toPath();
-
-            try (
-                    BufferedWriter writer = Files.newBufferedWriter(path)) {
-                writer.write(String.valueOf(boardButtons));
-            } catch (IOException e) {
-                System.out.println("wystąpił błąd: " + e);
+        for (int i = 0; i < boardButtons.length; i++) {
+            boardState += boardButtons[i].getText();
+            if (i != boardButtons.length - 1) {
+                boardState += ",";
             }
         }
 
+        File f = new File("Test.txt");
+        if (!f.exists()) {
+            f.createNewFile();
+        }
+        Path path = f.toPath();
+
+        try (
+                BufferedWriter writer = Files.newBufferedWriter(path)) {
+            writer.write(boardState);
+        } catch (IOException e) {
+            System.out.println("wystąpił błąd: " + e);
+        }
+    }
+
 
     public void loadToFile(JButton[] boardButtons) {
-
-        final JButton loadButton = new JButton();
-        loadButton.setText("ticTac");
-        String string = "X,O,X,O,O,X";
-        String[] part = string.split(",");
-        String part1 = part[0];
 
         File file1 = new File("Test.txt");
         FileInputStream fis;
@@ -50,25 +51,29 @@ public class SaveLoad {
 
             fis = new FileInputStream(file1);
             bis = new BufferedInputStream(fis);
+            byte[] contents = new byte[17];
 
             while (bis.available() != 0) {
-                System.out.println(bis);
+                bis.read(contents);
             }
             fis.close();
             bis.close();
+            String savedState = new String(contents, UTF_8);
+            String[] buttonStates = savedState.split(",");
+            for (int i = 0; i < boardButtons.length; i++) {
+                boardButtons[i].setText(buttonStates[i]);
+            }
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
-        {
 
-        }
+
     }
 
-
-    public SaveLoad() throws IOException {
+     public SaveLoad() throws IOException {
     }
 
 }

@@ -2,20 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/BookOrderRespository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/BookOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/InformationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/MailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/OrderDTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/OrderRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/OrderRequestRetriever.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/ProductOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/ExtraFoodShopOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/GlutenFreeShopOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/HealthyShopOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/InformationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/MailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/OrderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/OrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/OrderRequestRetriever.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntelliJ/TicTacToe/SaveLoad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntelliJ/TicTacToe/TicTacToe$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntelliJ/TicTacToe/TicTacToe$ClickButtonAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntelliJ/TicTacToe/TicTacToe$MyLoadButtonActionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntelliJ/TicTacToe/TicTacToe$MyResetButtonActionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntelliJ/TicTacToe/TicTacToe$MySaveButtonActionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntelliJ/TicTacToe/TicTacToe.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TicTacToe/SaveLoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/SaveLoad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/TicTacToe.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,113 +99,85 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/ProductOrderService.java">
+        <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/ProductOrderService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/Shop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#561#562#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/OrderRequestRetriever.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/MailService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/HealthyShopOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <folding>
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/GlutenFreeShopOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/ExtraFoodShopOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/OrderService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/OrderRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="129" selection-start-line="6" selection-start-column="129" selection-end-line="6" selection-end-column="129" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/BookOrderRespository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/BookOrderService.java">
+        <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-              <folding>
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/MailService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/OrderRequestRetriever.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/OrderRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#415#416#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#294#295#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-              </folding>
+              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -242,14 +222,11 @@
         <option value="$PROJECT_DIR$/src/TicTacToe/Menu.java" />
         <option value="$PROJECT_DIR$/src/TicTacToe/Rank.java" />
         <option value="$PROJECT_DIR$/Test.txt" />
-        <option value="$PROJECT_DIR$/src/TicTacToe/TicTacToe.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/MovieStore.java" />
-        <option value="$PROJECT_DIR$/src/TicTacToe/SaveLoad.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/Application.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/MailService.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/OrderDTo.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/InformationService.java" />
-        <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/BookOrderService.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/OrderRequestRetriever.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/User.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/OrderRequest.java" />
@@ -257,6 +234,22 @@
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/OrderRepository.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/OrderService.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/BookOrderRespository.java" />
+        <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/BookOrderService.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/TicTacToe.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/SaveLoad.java" />
+        <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/OrderRequest.java" />
+        <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/OrderDto.java" />
+        <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/InformationService.java" />
+        <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/OrderService.java" />
+        <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/User.java" />
+        <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/Shop.java" />
+        <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/ProductOrderService.java" />
+        <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/OrderRequestRetriever.java" />
+        <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/MailService.java" />
+        <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/HealthyShopOrder.java" />
+        <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/GlutenFreeShopOrder.java" />
+        <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/ExtraFoodShopOrder.java" />
+        <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/Application.java" />
       </list>
     </option>
   </component>
@@ -276,8 +269,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -318,7 +309,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="food2door" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IntelliJ" type="b2602c69:ProjectViewProjectNode" />
@@ -335,6 +326,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,12 +348,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Pati\IntelliJ" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="food2door" />
       <recent name="challenges" />
       <recent name="com.kodilla" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pati\IntelliJ" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -375,7 +369,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Application.Application (1)">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -394,13 +388,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="challenges.Application" />
+    <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="food2door.Application" />
       <module name="kodilla-good-patterns.main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="challenges.*" />
+          <option name="PATTERN" value="food2door.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -408,13 +402,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Blackjack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.Blackjack" />
-      <module name="IntelliJ" />
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="challenges.Application" />
+      <module name="kodilla-good-patterns.main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.*" />
+          <option name="PATTERN" value="challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -526,20 +520,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Blackjack" />
       <item itemvalue="Application.TicTacToe" />
       <item itemvalue="Application.Computer$Time" />
-      <item itemvalue="Spring Boot.KodillaGoodPatternsApplication" />
       <item itemvalue="Application.MovieStore" />
       <item itemvalue="Application.Application" />
+      <item itemvalue="Spring Boot.KodillaGoodPatternsApplication" />
+      <item itemvalue="Application.Application (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application (1)" />
+        <item itemvalue="Application.TicTacToe" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.MovieStore" />
-        <item itemvalue="Application.TicTacToe" />
         <item itemvalue="Application.Computer$Time" />
-        <item itemvalue="Application.Blackjack" />
       </list>
     </recent_temporary>
   </component>
@@ -584,12 +578,13 @@
       <workItem from="1564854220952" duration="221000" />
       <workItem from="1564925254881" duration="3424000" />
       <workItem from="1564939876954" duration="3151000" />
-      <workItem from="1565004720809" duration="13733000" />
+      <workItem from="1565004720809" duration="15064000" />
+      <workItem from="1565096279336" duration="4905000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123746000" />
+    <option name="totallyTimeSpent" value="129982000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -604,7 +599,7 @@
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.20309168" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.20522387" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -660,14 +655,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/kodilla/Dealer.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/kodilla/Person.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/kodilla/Computer.java" />
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/settings.gradle" />
     <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/javafx.graphics/javafx/application/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
@@ -830,33 +817,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TicTacToe/TicTacToe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="146" column="37" lean-forward="true" selection-start-line="146" selection-start-column="37" selection-end-line="146" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/com/kodilla/good/patterns/challenges/ProductOrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TicTacToe/SaveLoad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/com/kodilla/good/patterns/challenges/ProductOrderService.java" />
     <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/OrderDTo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -931,10 +892,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/Application.java">
+    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/OrderService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="129" selection-start-line="6" selection-start-column="129" selection-end-line="6" selection-end-column="129" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/BookOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -951,21 +923,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/BookOrderService.java">
+    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="102">
+          <caret line="6" column="129" selection-start-line="6" selection-start-column="129" selection-end-line="6" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/TicTacToe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="133" column="30" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
           <folding>
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/challenges/OrderService.java">
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/SaveLoad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="961">
+          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/OrderRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/OrderDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/InformationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/Shop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/OrderRequestRetriever.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/MailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/HealthyShopOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/GlutenFreeShopOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/ExtraFoodShopOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/ProductOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
         </state>
       </provider>
     </entry>

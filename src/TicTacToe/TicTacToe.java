@@ -13,7 +13,7 @@ import javax.swing.*;
 
 public class TicTacToe extends JFrame {
 
-        static JButton[] boardButtons = new JButton[10];
+        static JButton[] boardButtons = new JButton[9];
         JButton resetButton = new JButton("Reset");
         JButton saveButton = new JButton("Zapisz");
         JButton loadButton = new JButton("Wczytaj");
