@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/flight/Appliction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/flight/Flight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/flight/FlightList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/flight/FlightSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/flight/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/flight/Flight.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,15 +81,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/flight/Flight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+            <state relative-caret-position="408">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
               <folding>
-                <element signature="e#294#295#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#796#797#0" expanded="true" />
-                <element signature="e#832#833#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/flight/FlightSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+            <state relative-caret-position="476">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/flight/FlightList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -199,10 +194,10 @@
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/GlutenFreeShopOrder.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/ExtraFoodShopOrder.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/food2door/Application.java" />
-        <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/flight/Flight.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/flight/FlightList.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/flight/FlightSearch.java" />
         <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/flight/Appliction.java" />
+        <option value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/flight/Flight.java" />
       </list>
     </option>
   </component>
@@ -222,6 +217,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,8 +276,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -476,9 +471,9 @@
       <item itemvalue="Application.TicTacToe" />
       <item itemvalue="Application.MovieStore" />
       <item itemvalue="Application.Application" />
-      <item itemvalue="Spring Boot.KodillaGoodPatternsApplication" />
       <item itemvalue="Application.Application (1)" />
       <item itemvalue="Application.Appliction" />
+      <item itemvalue="Spring Boot.KodillaGoodPatternsApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -532,12 +527,13 @@
       <workItem from="1564925254881" duration="3424000" />
       <workItem from="1564939876954" duration="3151000" />
       <workItem from="1565004720809" duration="15064000" />
-      <workItem from="1565096279336" duration="8072000" />
+      <workItem from="1565096279336" duration="8272000" />
+      <workItem from="1565120969518" duration="872000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133149000" />
+    <option name="totallyTimeSpent" value="134221000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -552,7 +548,7 @@
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.20522387" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.20735608" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -562,7 +558,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32981783" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.17833173" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17833173" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -576,7 +572,7 @@
       <window_info anchor="bottom" id="Messages" order="13" weight="0.16011505" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="16" visible="true" weight="0.09971237" />
+      <window_info anchor="bottom" id="Terminal" order="16" weight="0.09971237" />
       <window_info anchor="bottom" id="Inspection Results" order="17" weight="0.32981783" />
       <window_info anchor="bottom" id="Spring" order="18" />
       <window_info anchor="bottom" id="Build" order="19" weight="0.32981783" />
@@ -997,17 +993,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/flight/Flight.java">
+    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/flight/FlightSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1015,19 +1006,22 @@
     <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/flight/FlightList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/flight/FlightSearch.java">
+    <entry file="file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/flight/Flight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        <state relative-caret-position="408">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
           </folding>
         </state>
       </provider>

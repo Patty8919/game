@@ -18,6 +18,12 @@ public class Flight {
     public String getArrivalCity() {
         return arrivalCity;
     }
+    @Override
+    public String toString() {
+        return "Flight from " +
+                "" + departureCity +
+                " to " + arrivalCity;
+    }
 
     @Override
     public boolean equals(Object o) {
