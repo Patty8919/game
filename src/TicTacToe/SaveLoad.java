@@ -62,6 +62,7 @@ public class SaveLoad {
             String[] buttonStates = savedState.split(",");
             for (int i = 0; i < boardButtons.length; i++) {
                 boardButtons[i].setText(buttonStates[i]);
+                System.out.println("! " + buttonStates[i]);
             }
 
         } catch (FileNotFoundException e) {

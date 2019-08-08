@@ -131,7 +131,7 @@ public class TicTacToe extends JFrame {
         @Override
         public void actionPerformed(ActionEvent e) {
             try {
-                new SaveLoad().saveToFile();
+                new SaveLoad().saveToFile(boardButtons);
             } catch (IOException ex) {
                 ex.printStackTrace();
             }
@@ -142,7 +142,7 @@ public class TicTacToe extends JFrame {
         @Override
         public void actionPerformed(ActionEvent e) {
             try {
-                new SaveLoad().loadToFile();
+                new SaveLoad().loadToFile(boardButtons);
             } catch (IOException ex) {
                 ex.printStackTrace();
             }
